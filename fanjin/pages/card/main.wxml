@@ -1,0 +1,92 @@
+<!--home.wxml-->
+<view class="container">
+
+	<image src="../../images/fanjin/名片.jpg" />
+
+	<view class="zan-panel">
+		<view class="zan-cell">
+			<view style='width:70%'>
+				<view class="zan-cell__bd">梵 堇 出 品</view>
+				<view class="zan-cell__bot">FANJIN PRODUCTS</view>
+			</view>
+			<view class="zan-cell__ft" style='color:#fff' bindtap='showmap'>
+				<view class="img-box">点击查看地址
+					<image src="../../images/ico-addr.png" style='width:25rpx;height:25rpx' />
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="zan-panel">
+		<view class="zan-cell">
+			<view style='width:20px' class='img-box'>
+				<image src="../../images/down.png" class="img" />
+			</view>
+			<view style='width:80%'>
+				<view class="zan-cell__bd">品牌产品</view>
+				<view class="zan-cell__bot">PRODUCTS</view>
+			</view>
+		</view>
+		<view style='margin: 20px 0; height:240rpx'>
+			<view style='width:33%; float:left;' bindtap='phonecall'>
+				<view style='text-align:center;'>
+					<image class="img-avatar" src="../../images/fanjin/moka.jpg" />
+				</view>
+				<view class="zan-cell__bd" style='font-size:12px; text-align:center; margin-top:10px'>梵堇魔卡</view>
+				<view class="zan-cell__bot" style='font-size:9px; text-align:center'></view>
+			</view>
+			<view style='width:34%; float:left;' bindtap='toAllCoachesTap'>
+				<view style='text-align:center;'>
+					<image class="img-avatar" src="../../images/fanjin/houtou.jpg" />
+				</view>
+				<view class="zan-cell__bd" style='font-size:12px; text-align:center; margin-top:10px'>梵堇猴头</view>
+				<view class="zan-cell__bot" style='font-size:9px; text-align:center'></view>
+			</view>
+			<view style='width:33%; float:left;' bindtap='toAllEVNTap'>
+				<view style='text-align:center;'>
+					<image class="img-avatar" src="../../images/fanjin/gepian.jpg" />
+				</view>
+				<view class="zan-cell__bd" style='font-size:12px; text-align:center; margin-top:10px'>梵堇隔片</view>
+				<view class="zan-cell__bot" style='font-size:9px; text-align:center'></view>
+			</view>
+		</view>
+
+	</view>
+
+  	<view class="zan-panel">
+		<view class="zan-cell">
+			<view style='width:20px' class='img-box'>
+				<image src="../../images/down.png" class="img" />
+			</view>
+			<view style='width:80%'>
+				<view class="zan-cell__bd">关于我们</view>
+				<view class="zan-cell__bot">ABOUT AS</view>
+			</view>
+		</view>
+
+		<view style='margin: 5px 0; height:600rpx'>
+					<image src="../../images/fanjin/dian.jpg" />
+			<!-- <view style='width:33%; float:left;' bindtap='phonecall'>
+				<view style='text-align:center;'>
+					<image class="img-avatar" src="../../images/fanjin/dian.jpg" />
+				</view>
+				<view class="zan-cell__bd" style='font-size:12px; text-align:center; margin-top:10px'>联系我们</view>
+				<view class="zan-cell__bot" style='font-size:9px; text-align:center'>Contact us</view>
+			</view> -->
+			<!-- <view style='width:34%; float:left;' bindtap='toAllCoachesTap'>
+				<view style='text-align:center;'>
+					<image class="img-avatar" src="../../images/coach.png" />
+				</view>
+				<view class="zan-cell__bd" style='font-size:12px; text-align:center; margin-top:10px'>教练信息</view>
+				<view class="zan-cell__bot" style='font-size:9px; text-align:center'>The coach information</view>
+			</view>
+			<view style='width:33%; float:left;' bindtap='toAllEVNTap'>
+				<view style='text-align:center;'>
+					<image class="img-avatar" src="../../images/env.png" />
+				</view>
+				<view class="zan-cell__bd" style='font-size:12px; text-align:center; margin-top:10px'>健身环境</view>
+				<view class="zan-cell__bot" style='font-size:9px; text-align:center'>Fitness environment</view>
+			</view>  -->
+		</view>
+	</view>
+</view>
+<import src="/template/login/index.wxml" />

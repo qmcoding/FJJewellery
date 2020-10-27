@@ -1,0 +1,16 @@
+.search-bar {
+  width:100%; 
+  height: 40px; 
+  display: flex;
+  align-items: center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+
+.search-input{
+  border: 2px solid black;/*边框*/
+  width: 90%;
+  height: 30px;
+  line-height: 30px;/*文字居中*/
+  padding-left: 20rpx;/*左空格*/
+  padding-right: 20rpx;/*右空格*/
+}

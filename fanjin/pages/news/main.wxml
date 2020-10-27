@@ -1,0 +1,3 @@
+<view class="search-bar">
+  <input class='search-input' bindinput='getSuggest' placeholder='输入您的珠宝编号'></input>
+</view>
